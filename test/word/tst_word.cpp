@@ -20,3 +20,8 @@ TEST_P(WordTest, StoreInitializedValue) {
 }
 
 INSTANTIATE_TEST_SUITE_P(InitializerToString, WordTest, testing::ValuesIn(initiazer_to_string));
+
+TEST_F(WordTest, Addition) {
+	Word word1{"1"}, word2{"10"};
+	word1 + word2;
+}
