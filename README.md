@@ -19,6 +19,5 @@ cmake --build .
 ```
 Optionally to run the tests
 ```
-cd test
-ctest
+ctest --test-dir test
 ```
